@@ -11,7 +11,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/conaloneill/leaf-kit.git", .branch("master")),
-        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0-rc.1"),
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
     ],
     targets: [
         .target(name: "Leaf", dependencies: [
